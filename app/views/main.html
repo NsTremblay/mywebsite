@@ -1,0 +1,235 @@
+<div ng-controller="MainCtrl" >
+
+
+
+<div class="flex-container" id="mainRow">
+
+	<div id="projects" class="flex-item">
+		<div class="row">
+		
+		<span ng-click="moveTo('profile')" style="float:left;font-size: 2em"><span class="glyphicon glyphicon-chevron-left"></span>Profile</span>
+		<span style="font-weight:100;font-size: 3em;float:right;">Projects</span>
+		</div>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">SuperPhy</span><br>
+			A platform for the study of <i>E. Coli</i> genomes
+			<a href="https://github.com/superphy/version-1">https://github.com/superphy/version-1</a>
+			<br>This project is hosted <a href="https://lfz.corefacility.ca/superphy/" target="_blank">here</a>
+		</div>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Clustermine 360</span><br>
+			This website is used to store secondary metabolites<br>
+			<a href="http://clustermine360.ca/" target="_blank">http://clustermine360.ca/</a>
+		</div>	
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Chico the robot</span><br>
+			For the course of real-time systems, we had to program a robot tha couls follow a source of heat.
+			<a href="https://github.com/NsTremblay/real-time2016" target = "_blank">https://github.com/NsTremblay/real-time2016</a>
+		</div>
+
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Iris KN</span><br>
+			This is a website that I have done for an artist that I know
+			<a href="http://iriskn.com/" target = "_blank">http://iriskn.com/</a>
+		</div>
+
+		<span style="font-weight:100;font-size: 2em;">Competition</span>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">iGem</span><br>
+			Participated in the iGEM competition of 2013 for the uOttawa team. I was in charge of making the model to simulate the Type-I incoherent Feedforward loop.<br>
+			<a href="http://2013.igem.org/Team:uOttawa/modeling" target = "_blank">http://2013.igem.org/Team:uOttawa/modeling</a>
+		</div>
+
+		
+		
+	</div>
+
+  	
+
+	<div id="profile" class="flex-item container">
+	<!-- make a scrollable area if the content is reduced -->
+		
+		<div class="row" style="margin-left:5vw">
+			<span style="float:left; font-weight: 100; font-size: 15vh; ">Nicolas Tremblay</span>
+		</div>
+		<div class="row" style="margin-left: 5vw; margin-right: 5vw;">
+			<div class="col-sm-3">
+				<img style="width:100%; margin-top:3vh" src="../images/profile2.png" />
+			</div>	
+			<div class="col-sm-9" id="profileDecription" >
+				<p>I am currently a fourth year Software Engineering student expecting to graduate in December 2016. I am a passionate programmer. I've worked and developped software at large and small organizations. From having to store 80 million gene matches to programming websites. To learn more about me, you can visit the <a class="arrow" href="#bottomSection" ng-click="moveTo('bottomSection')">skills section bellow</a>, the <a class="arrow" href="#projects" ng-click="moveTo('projects')">project section on the right</a> of the <a class="arrow" href="#workExperience" ng-click="moveTo('workExperience')">work experience section on the left</a>. Look around!</p>
+			</div>
+			
+
+		</div>
+	</div>
+
+	<div id="workExperience" class="flex-item">
+		<div class="row">
+		<span style="font-weight:100;font-size: 3em;">Work Experience</span>
+		<span ng-click="moveTo('profile')" style="float:right;font-size: 2em">Profile<span  class="glyphicon glyphicon-chevron-right"></span></span>
+		</div>
+		<br>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">E-learning course developer</span>
+			<br><span style="font-weight:100;font-size: 0.8em">Statistics Canada, Ottawa, ON</span><span style="float:right">January 2016 - present</span>
+			<ul>
+				<li>Rebuilt the interface of the website using Wet4 programming standards</li>
+				<li>In charge of developing effective e-learning courses for the organization</li>
+				<li>Consult with subject matter experts in order to develop compelling courses</li>
+				<li>Work with the business transformation division to help map new business processes.</li>
+
+			</ul>
+		</div>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Co-op Bioinformatics Research Technician</span>
+			<br><span style="font-weight:100;font-size: 0.8em">Public Health Agency of Canada, Lethbridge, AB</span><span style="float:right">May 2015 – August 2015</span>
+			<ul>
+				<li>Implemented a continuous integration platform for SuperPhy using GitHub</li>
+				<li>Developed a machine learning algorithm in order to mine genome metadata</li>
+				<li>Implemented feature to better categorize and retrieve E. Coli genomes</li>
+				<li><a href="https://lfz.corefacility.ca/superphy/">https://lfz.corefacility.ca/superphy/</a></li>
+
+			</ul>
+		</div>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Bioinformatician</span>
+			<br><span style="font-weight:100;font-size: 0.8em">University of Ottawa, Ottawa, ON</span><span style="float:right">December 2013 – August 2014</span>
+			<ul>
+				<li>Configured Mono framework on Ubuntu 14.04 in order to run a .NET application</li>
+				<li>Created c# scripts to continuously update information in the database in order to keep the
+information up to date</li>
+				<li>Made modifications to the .NET application’s interface.</li>
+				<li>Created an efficient hashing algorithm to extract records in a database containing over 80
+million records</li>
+
+			</ul>
+		</div>
+		<div class="row workItem" >
+			<span style="font-weight:100;font-size: 1.2em">Web Developer</span>
+			<br><span style="font-weight:100;font-size: 0.8em">Canada-Brasil Futebol Academy, Gatineau, QC</span><span style="float:right">November 2013 – Present</span>
+			<ul>
+				<li>Designed and developed a registration interface for the website, allowing paperless
+registration</li>
+				<li>Integrated Desjardins Monetico services into the website, enabling direct payments from
+patrons</li>
+				<li>Analyzed and implemented the client’s requirements through monthly meetings, monthly
+sprints, and agile programming</li>
+
+			</ul>
+		</div>
+		<h1 style="font-weight:100;">Research Experience</h1>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Summer research student</span>
+			<br><span style="font-weight:100;font-size: 0.8em">Faculty of Medicine, University of Ottawa</span><span style="float:right">May 2013 – September 2013</span>
+			<ul>
+				<li>Performed qPCR, qPCR analysis, PCR, cell culture, luciferase, microscope quantification
+analysis, ligation, vector growth, cell staining in order to study stem cell differentiation
+into skeletal and cardiac muscle cells</li>
+				<li>Presented work in front of fellow researchers</li>
+
+			</ul>
+		</div>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">iGEM competition</span>
+			<br><span style="font-weight:100;font-size: 0.8em">uOttawa iGEM team, University of Ottawa</span><span style="float:right">June 2013 – October 2013</span>
+			<ul>
+				<li>Extracted data from high throughput experiment, using VBA scripts, in order to study trends in type 3 feed forward loop experiment</li>
+				<li>Won gold medal in North American championship</li>
+			</ul>
+		</div>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Clinical Trial Researcher</span>
+			<br><span style="font-weight:100;font-size: 0.8em">Faculty of Science, University of Ottawa, ON</span><span style="float:right">2010 – 2013</span>
+			<ul>
+				<li>Collected clinical trials results in order to determine best drug cocktail for new treatments
+</li>
+			</ul>
+		</div>
+		<h1 style="font-weight:100;">Volunteering</h1>
+		<div class="row workItem">
+			<span style="font-weight:100;font-size: 1.2em">Software Developer</span>
+			<br><span style="font-weight:100;font-size: 0.8em">Clinique d’Optométrie De Touraine, Gatineau, QC</span><span style="float:right">2010 – 2013</span>
+			<ul>
+				<li>Developed interface to enter eye exam information</li>
+				<li>Developed MongoDB storage to keep and maintain patient information</li>
+			</ul>
+		</div>
+		<h1 style="font-weight:100;">Publication</h1>
+		<div class="row workItem">
+			<p>
+Nicolas Tremblay, Patrick B. Hill, Kyle R. Conway, Christopher N. Boddy, The use of ClusterMine360 for the analysis of polyketide and non-ribosomal peptide biosynthetic pathways, Nonribosomal Peptide and Polyketide Biosynthesis, December 2015</p>
+		</div>
+	</div> 
+
+</div>
+
+
+<div class="bottomSec" id="bottomSection">
+
+<span ng-click="moveTo('workExperience')" style="float:left;font-size: 2em; font-weight:100;"><span class="glyphicon glyphicon-chevron-left"></span>Work Experience</span>
+
+
+	<a class="arrow arrowSkills"   ng-click="moveTo('bottomSection')">
+		<h3 class="guideHeader">Skills</h3>
+		<span  class="glyphicon glyphicon-chevron-down"></span>
+		
+	</a>
+	<a class="arrow arrowSkills" ng-click="moveTo('profile')" >
+		
+		<span  class="glyphicon glyphicon-chevron-up"></span>
+		<h3 class="guideHeader">Profile</h3>
+	</a>
+
+<span ng-click="moveTo('projects')" style="float:right;font-size: 2em; font-weight:100;">Projects<span  class="glyphicon glyphicon-chevron-right"></span></span>
+
+
+</div>
+<!-- row for the wordcloud -->
+<div id="skillsContainer" class="container">
+	
+	<div class="row" id="skillsRow">
+
+		<span class = "backgroundText">Skills</span>
+		
+
+		<div class="col-sm-6" id="contentSkills" ng-init="skill = 'Python'">
+			<h1 style="font-size:5em" class="yearSkills">{{skill}}</h1>
+			<div class="row" style="margin-bottom: 15px;">
+				<div class="col-md-3 yearSkills">{{skills[skill].time}}<span style="font-size: 25px;" ng-if="skills[skill].time">year<span style="font-size: 25px;" ng-if="skills[skill].time>1">s</span></span></div>
+				<div class="col-md-9" ng-bind-html="skills[skill].description"></div>
+			</div>
+
+		</div>
+
+		<div class="col-sm-5 col-xs-offset-1" id="wordDiv">
+			<img id="wordImage" src="images/wordCloud2/cloudNewSize.png"  usemap="#wordCloudMap" ng-init="resizeCloud()" style="width:406px;"/>
+			<map name="wordCloudMap" id="map">
+			<area shape="rect" alt="92" ng-click="skill = 'MongoDB'" coords="296,60,388,92" target="wordcloud">
+			<area shape="rect" alt="84" ng-click="skill = 'Embedded'" coords="424,320,508,344" target="wordcloud">
+			<area shape="rect" alt="60" ng-click="skill = 'CoffeeScript'" coords="164,320,224,428" target="wordcloud">
+			<area shape="rect" alt="84" ng-click="skill = 'AWS'" coords="428,168,512,200" target="wordcloud">
+			<area shape="rect" alt="92" ng-click="skill = 'Apache'" coords="144,128,236,172" target="wordcloud">
+			<area shape="rect" alt="152" ng-click="skill = 'Objective-C'" coords="244,404,396,444" target="wordcloud">
+			<area shape="rect" alt="84" ng-click="skill = 'RDF'" coords="368,300,452,332" target="wordcloud">
+			<area shape="rect" alt="88" ng-click="skill = 'NET'" coords="148,240,236,276" target="wordcloud">
+			<area shape="rect" alt="120" ng-click="skill = 'English'" coords="316,364,436,420" target="wordcloud">
+			<area shape="rect" alt="100" ng-click="skill = 'Java'" coords="420,196,520,260" target="wordcloud">
+			<area shape="rect" alt="136" ng-click="skill = 'Python'" coords="112,276,248,340" target="wordcloud">
+			<area shape="rect" alt="264" ng-click="skill = 'Bioinformatics'" coords="184,72,448,132" target="wordcloud">
+			<area shape="rect" alt="92" ng-click="skill = 'Perl'" coords="368,120,460,176" target="wordcloud">
+			<area shape="rect" alt="108" ng-click="skill = 'VBA'" coords="208,340,316,392" target="wordcloud">
+			<area shape="rect" alt="120" ng-click="skill = 'Linux'" coords="308,316,428,364" target="wordcloud">
+			<area shape="rect" alt="144" ng-click="skill = 'French'" coords="224,116,368,172" target="wordcloud">
+			<area shape="rect" alt="196" ng-click="skill = 'AngularJS'" coords="304,248,500,324" target="wordcloud">
+			<area shape="rect" alt="240" ng-click="skill = 'JavaScript'" coords="188,164,428,236" target="wordcloud">
+			<area shape="rect" alt="108" ng-click="skill = 'SQL'" coords="220,244,328,340" target="wordcloud">
+			<area shape="rect" alt="112" ng-click="skill = 'Web'" coords="272,216,384,272" target="wordcloud">
+			</map>
+		</div>
+		<script>
+			var newPictureHeight =  document.getElementById("wordImage").offsetHeight;
+		</script>
+	</div>
+	</div>
+</div>

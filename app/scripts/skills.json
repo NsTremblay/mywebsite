@@ -1,0 +1,82 @@
+{
+	"MongoDB":{
+		"time":1,
+		"description":"Used a MongoDB database to enable a Cordova application to store information about patients in an effective manner."
+	},
+	"Embedded":{
+		"time":1,
+		"description":"For our Real-Time and Embedded System class we had to program an Androino chip that would control a robot. The robot needed to follow a heat source."
+	},
+	"CoffeeScript":{
+		"time":1,
+		"description":"Working on the <a href=\"https://github.com/superphy/version-1\" target=\"_blank\">superphy application</a>, we had to seperate the genomes in groups. The groups would then anable the user to better compare the genomes, enabeling the user to access data more easily"
+	},
+	"AWS":{
+		"time":2,
+		"description":"I use AWS to test applications, it is also used to store the website <a href=\"http://iriskn.com/\">iriskn.com</a>"
+	},
+	"Apache":{
+		"time":3,
+		"description":"Changed the apache configuration file as required for mapping routes."
+	},
+	"Objective-C":{
+		"time":1,
+		"description":"Created an iPhone appplication that would make memes"
+	},
+	"RDF":{
+		"time":1,
+		"description":"Explored Resource Description Frameworke to store genenomes while working on the superphy project"
+	},
+	"NET":{
+		"time":1,
+		"description":"Used a net application to make modifications to the Clustermine360 web database"
+	},
+	"English":{
+		"time":20,
+		"description":"I am fluent in English"
+	},
+	"Java":{
+		"time":1,
+		"description":"Used to program school projects"
+	},
+	"Python":{
+		"time":1,
+		"description":"Used to create a multithreaded script that would run BLAST experiments on a set of gene clusters. The script created 80 million match scores that were progressively stored in a MySQL database using a simple hashing algorithm"
+	},
+	"Bioinformatics":{
+		"time":3,
+		"description":"Used programming to process various types of genetic information. Wrote scripts to extract metadata for a set of genomes. Wrote scripts to synthesize high throughput experiments. Used .NET application to store Secondary metabolites. Used CoffeeScript in order to better group <i>E. Coli</i> genomes. The goal of the CoffeeScript web application was to enable researcher to better compare and search for virulent strains of <i>E. Coli</i>"
+	},
+	"Perl":{
+		"time":1,
+		"description":"Used to extract metadata from NCBI database"
+	},
+	"VBA":{
+		"time":1,
+		"description":"Used multiple times to arrange data in Excel, extracting high throughput experiment data. Used to query webpages and provide synthesized reports."
+	},
+	"Linux":{
+		"time":1,
+		"description":"Familiar with the command line, used vim to edit file on CLI only."
+	},
+	"French":{
+		"time":24,
+		"description":"French is my mother tongue"
+	},
+	"AngularJS":{
+		"time":1,
+		"description":"Created an application using Ionic that will allow optometrists to enter optometric exam data. The iOS application is currently being tested for use in clinic"
+	},
+	"JavaScript":{
+		"time":3,
+		"description":"Good working proficiency with the language. Used technologies like JQuery, AngularJs, d3. Programmed a cordova application using AngularJs and Ionic."
+	},
+	"SQL":{
+		"time":3,
+		"description":"Used MySQL to store effectively 80 million scores of BLAST results. Used MySQL database for keeping track of all of the records for the Canada Brasil Futebol Association"
+	},
+	"Web":{
+		"time":4,
+		"description":"Developed websistes using LAMP servers and Node servers. Good working knowledge of the most recent web development technologies."
+	}
+}

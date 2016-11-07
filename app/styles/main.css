@@ -1,0 +1,235 @@
+body {
+  padding: 0;
+  background-color: #2196F3;
+  height:100%;
+  color:white;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+body.green { transition:0.5s linear all; background:#2E7D32; color:white; }
+body.red { transition:0.5s linear all; background:#D32F2F; color:white; }
+body.blue { transition:0.5s linear all; background:#0277BD; color:white; }
+body.orange { transition:0.5s linear all; background:#FF5722; color:white; }
+
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    width:300vw;
+}
+
+.flex-item {
+	width:100vw;
+  height:85vh;
+}
+
+.flex-item img{
+	display: block;
+    margin:auto;
+    max-height: 20em;
+	max-width: 20em;
+    width: auto;
+    height: auto;
+
+}
+
+#mainRow{
+	height:85vh;
+}
+
+#wordDiv{
+    background-color: rgb(255,255,255);
+    border-radius: 1em;
+    margin:1em;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+#contentSkills{
+	color:black;
+    background-color: rgb(255,255,255);
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+
+}
+
+.yearSkills
+{	
+	color: black;
+	font-size: 6em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.backgroundText{
+	font-size: 15em;
+    position: absolute;
+    left: 0.1em;
+    bottom: 0;
+    font-weight: 100;
+}
+
+.upArrow {
+	transition:0.2s linear all;
+  display: inline-block;
+  width: 10vh;
+  height: 10vh;
+  border: 0.23em solid;
+  border-radius: 50%;
+  color:inherit;
+
+}
+
+.upArrow:after {
+	transition:0.2s linear all;
+  	content: '';
+	display: inline-block;
+  	margin-top: 3.5vh;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 0.23em solid;
+	border-right: 0.23em solid;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	color:inherit;
+}
+
+.downArrow {
+	transition:0.2s linear all;
+  display: inline-block;
+  width: 10vh;
+  height: 10vh;
+  border: 0.23em solid;
+  border-radius: 50%;
+  color:inherit;
+}
+
+.downArrow:after {
+	transition:0.2s linear all;
+  	content: '';
+	display: inline-block;
+  	margin-top: 2.5vh;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 0.23em solid;
+	border-right: 0.23em solid;
+	-moz-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.arrow {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#skillsContainer{
+	position: relative;
+	padding-top: 1em;
+	height:85vh;
+	margin-left: 100vw;
+	width:100vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.bottomSec{
+	text-align: center;
+	width: 100vw;
+	height: 15vh;
+	margin-left:100vw;
+}
+
+.arrowSkills{
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  color:inherit;
+}
+
+.arrowSkills:hover{
+  text-decoration: none;
+  color:inherit;
+}
+.arrowSkills:visited{
+  text-decoration: none;
+  color:inherit;
+}
+.arrowSkills:focus{
+  text-decoration: none;
+  color:inherit;
+}
+.arrowSkills:active{
+  text-decoration: none;
+  color:inherit;
+}
+
+.guideHeader{
+	font-weight: 100;
+  margin:0;
+  height:5vh;
+}
+
+#profile{
+  overflow: scroll;
+
+}
+#profile::-webkit-scrollbar { 
+    display: none; 
+}
+
+#profileDecription{
+      background-color: white;
+    color: black;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight:300; font-family: 'Roboto', sans-serif; font-size:1.3em;  
+}
+
+#workExperience{
+  overflow: scroll;
+  height:100vh;
+  font-weight:200; font-family: 'Roboto', sans-serif; font-size:1.3em;padding: 2em;
+
+}
+
+#workExperience::-webkit-scrollbar { 
+    display: none; 
+}
+
+.workItem{
+  background-color:white;
+  border-radius: 1em;
+  margin-top:1em;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width:1500px;
+  color:black;
+  padding:1em;
+
+
+}
+#projects{
+  overflow: scroll;
+  height:100vh;
+  font-weight:200; font-family: 'Roboto', sans-serif; font-size:1.3em;padding: 2em;
+}
+
+#projects::-webkit-scrollbar { 
+    display: none; 
+}
+
+#bottomSection{
+  padding-right:2em;
+  padding-left:2em;
+}

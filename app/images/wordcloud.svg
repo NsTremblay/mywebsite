@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024px" height="768px" viewBox="0 0 1024 768">
+<clipPath id="cp1">
+<path d="M 0,0 L 1024,0 L1024,768 L 0,768 z M 0,0 L 1280,0 L 1280,960 L 0,960 z" fill-rule="evenodd">
+</path>
+</clipPath>
+<g clip-path="url(#cp1)">
+</g>
+<rect x="0" y="0" width="1280" height="960" opacity="1" fill="#fff" stroke="none">
+</rect>
+<text x="-107.16402435302734" y="9.709566048" style="font: normal 97.09566048000002px Verdana,Geneva,sans-serif" text-anchor="start" dy="38.377731415019774" opacity="1" fill="#d6125c" stroke="none" transform="translate(510, 382)">Web</text>
+<text x="-93.23753356933594" y="9.198536255999997" style="font: normal 91.98536256000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="36.35785081422926" opacity="1" fill="#38b3f6" stroke="none" transform="translate(534, 280) rotate(-75.03094039406304)">SQL</text>
+<text x="-224.57675170898438" y="8.687506464000002" style="font: normal 86.87506464px Verdana,Geneva,sans-serif" text-anchor="start" dy="34.33797021343874" opacity="1" fill="#e9c028" stroke="none" transform="translate(496, 452)">JavaScript</text>
+<text x="-202.24420166015625" y="8.687506464000002" style="font: normal 86.87506464px Verdana,Geneva,sans-serif" text-anchor="start" dy="34.33797021343874" opacity="1" fill="#e9c028" stroke="none" transform="translate(482, 520)">angularjs</text>
+<text x="-146.974853515625" y="8.687506464000002" style="font: normal 86.87506464px Verdana,Geneva,sans-serif" text-anchor="start" dy="34.33797021343874" opacity="1" fill="#222" stroke="none" transform="translate(350, 312)">French</text>
+<text x="-116.77396392822266" y="8.687506464000002" style="font: normal 86.87506464px Verdana,Geneva,sans-serif" text-anchor="start" dy="34.33797021343874" opacity="1" fill="#d6125c" stroke="none" transform="translate(388, 244)">Linux</text>
+<text x="-89.16051483154297" y="8.687506464000002" style="font: normal 86.87506464px Verdana,Geneva,sans-serif" text-anchor="start" dy="34.33797021343874" opacity="1" fill="#222" stroke="none" transform="translate(654, 332)">VBA</text>
+<text x="-77.6679916381836" y="8.176476672" style="font: normal 81.76476672000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="32.31808961264823" opacity="1" fill="#4c0e27" stroke="none" transform="translate(336, 400)">Perl</text>
+<text x="-273.7579345703125" y="7.665446880000001" style="font: normal 76.65446880000002px Verdana,Geneva,sans-serif" text-anchor="start" dy="30.29820901185772" opacity="1" fill="#38b3f6" stroke="none" transform="translate(508, 592)">Bioinformatics</text>
+<text x="-132.65911865234375" y="7.665446880000001" style="font: normal 76.65446880000002px Verdana,Geneva,sans-serif" text-anchor="start" dy="30.29820901185772" opacity="1" fill="#d6125c" stroke="none" transform="translate(486, 176)">Python</text>
+<text x="-86.1376724243164" y="7.665446880000001" style="font: normal 76.65446880000002px Verdana,Geneva,sans-serif" text-anchor="start" dy="30.29820901185772" opacity="1" fill="#e9c028" stroke="none" transform="translate(672, 264)">Java</text>
+<text x="-119.26908874511719" y="6.643387296" style="font: normal 66.43387296px Verdana,Geneva,sans-serif" text-anchor="start" dy="26.25844781027668" opacity="1" fill="#38b3f6" stroke="none" transform="translate(734, 392)">English</text>
+<text x="-61.215187072753906" y="6.132357503999998" style="font: normal 61.32357504000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="24.23856720948617" opacity="1" fill="#54bfa5" stroke="none" transform="translate(672, 224)">NET</text>
+<text x="-57.34901428222656" y="5.621327711999999" style="font: normal 56.21327712000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="22.218686608695656" opacity="1" fill="#e9c028" stroke="none" transform="translate(734, 500) rotate(-84.0507051134353)">RDF</text>
+<text x="-150.218505859375" y="5.110297920000001" style="font: normal 51.10297920000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="20.198806007905144" opacity="1" fill="#4c0e27" stroke="none" transform="translate(348, 162) rotate(-221.52923075322246)">Objective-C</text>
+<text x="-93.42965698242188" y="5.110297920000001" style="font: normal 51.10297920000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="20.198806007905144" opacity="1" fill="#3da4de" stroke="none" transform="translate(204, 430) rotate(-58.402163918100676)">Apache</text>
+<text x="-60.1947021484375" y="5.110297920000001" style="font: normal 51.10297920000001px Verdana,Geneva,sans-serif" text-anchor="start" dy="20.198806007905144" opacity="1" fill="#4c0e27" stroke="none" transform="translate(552, 142)">AWS</text>
+<text x="-109.50190734863281" y="3.5772085439999994" style="font: normal 35.772085440000005px Verdana,Geneva,sans-serif" text-anchor="start" dy="14.1391642055336" opacity="1" fill="#222" stroke="none" transform="translate(542, 642)">CoffeeScript</text>
+<text x="-93.93114471435547" y="3.5772085439999994" style="font: normal 35.772085440000005px Verdana,Geneva,sans-serif" text-anchor="start" dy="14.1391642055336" opacity="1" fill="#3da4de" stroke="none" transform="translate(530, 106)">embedded</text>
+<text x="-85.28557586669922" y="3.5772085439999994" style="font: normal 35.772085440000005px Verdana,Geneva,sans-serif" text-anchor="start" dy="14.1391642055336" opacity="1" fill="#e9c028" stroke="none" transform="translate(702, 182)">MongoDB</text>
+</svg>

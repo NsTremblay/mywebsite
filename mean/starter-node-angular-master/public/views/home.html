@@ -1,0 +1,48 @@
+
+<div class="row" >
+<div class="col-sm-7">
+
+</div>
+<div class="col-sm-5" id="wordDiv">
+</div>
+</div>
+
+<!-- row for the wordcloud -->
+<div class="row"  >
+<div class="col-sm-5" id="wordDiv">
+<img id="wordImage" src="/views/images/cloudNewSize.png"  usemap="#wordCloudMap" ng-init="resizeCloud()" style="width:406px;">
+<map name="wordCloudMap" id="map">
+<area shape="rect" alt="92" ng-click="getSkill('MongoDB')" coords="296,60,388,92" target="wordcloud">
+<area shape="rect" alt="84" ng-click="getSkill('embedded')" coords="424,320,508,344" target="wordcloud">
+<area shape="rect" alt="60" ng-click="getSkill('CoffeeScript')" coords="164,320,224,428" target="wordcloud">
+<area shape="rect" alt="84" ng-click="getSkill('AWS')" coords="428,168,512,200" target="wordcloud">
+<area shape="rect" alt="92" ng-click="getSkill('Apache')" coords="144,128,236,172" target="wordcloud">
+<area shape="rect" alt="152" ng-click="getSkill('Objective-C')" coords="244,404,396,444" target="wordcloud">
+<area shape="rect" alt="84" ng-click="getSkill('RDF')" coords="368,300,452,332" target="wordcloud">
+<area shape="rect" alt="88" ng-click="getSkill('NET')" coords="148,240,236,276" target="wordcloud">
+<area shape="rect" alt="120" ng-click="getSkill('English')" coords="316,364,436,420" target="wordcloud">
+<area shape="rect" alt="100" ng-click="getSkill('Java')" coords="420,196,520,260" target="wordcloud">
+<area shape="rect" alt="136" ng-click="getSkill('Python')" coords="112,276,248,340" target="wordcloud">
+<area shape="rect" alt="264" ng-click="getSkill('bioinformatics')" coords="184,72,448,132" target="wordcloud">
+<area shape="rect" alt="92" ng-click="getSkill('Perl')" coords="368,120,460,176" target="wordcloud">
+<area shape="rect" alt="108" ng-click="getSkill('VBA')" coords="208,340,316,392" target="wordcloud">
+<area shape="rect" alt="120" ng-click="getSkill('Linux')" coords="308,316,428,364" target="wordcloud">
+<area shape="rect" alt="144" ng-click="getSkill('French')" coords="224,116,368,172" target="wordcloud">
+<area shape="rect" alt="196" ng-click="getSkill('angularjs')" coords="304,248,500,324" target="wordcloud">
+<area shape="rect" alt="240" ng-click="getSkill('JavaScript')" coords="188,164,428,236" target="wordcloud">
+<area shape="rect" alt="108" ng-click="getSkill('SQL')" coords="220,244,328,340" target="wordcloud">
+<area shape="rect" alt="112" ng-click="getSkill('Web')" coords="272,216,384,272" target="wordcloud">
+</map>
+</div>
+
+
+<script>
+  
+var newPictureHeight =  document.getElementById("wordImage").offsetHeight;
+
+</script>
+
+<div class="col-sm-7">
+<h1>{{skill}}</h1>
+</div>
+</div>
