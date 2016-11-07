@@ -39,6 +39,7 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
+    "postinstall": "grunt uglify",
     "start": "node server.js"
   },
   "dependencies": {
