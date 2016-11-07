@@ -128,6 +128,7 @@ body.orange { transition:0.5s linear all; background:#FF5722; color:white; }
 .arrow {
   display: inline-block;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 #skillsContainer{
@@ -153,6 +154,7 @@ body.orange { transition:0.5s linear all; background:#FF5722; color:white; }
   transform: translateY(-50%);
   text-decoration: none;
   color:inherit;
+  cursor: pointer;
 }
 
 .arrowSkills:hover{

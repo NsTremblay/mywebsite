@@ -10,13 +10,15 @@
 myApp.controller('MainCtrl',['$scope','SkillService', '$location','$anchorScroll','$document', '$window', function ($scope, SkillsService, $location, $anchorScroll, $document, $window) {
 
 		var someElement = angular.element(document.getElementById("profile"));
+    	
+
     	$document.scrollTo(someElement.prop('offsetLeft'), someElement.prop('offsetTop'), 0); 
 
 var backColor="blue";	
 	angular.element($window).bind("scroll", function() {
              if($window.innerHeight*0.45<$window.scrollY){
 			  	$scope.upperSection=false;
-			  	console.log("passed")
+			  	
 			  	$scope.arrowSkills = {'visibility': 'hidden'}; 
 			  	$scope.arrowProfile = {'visibility': 'visible'}; // then button will visible.
 
@@ -28,23 +30,7 @@ var backColor="blue";
         });
 
 
-    $scope.getSkill  = function(skill){
-    	$scope.skill = skill;
-    	// console.log(skill)
-
-    	//MongoClient.connect(URL, function(err, db) {
-		  //   if (err) return
-		    
-		  //   var collection = db.collection('foods')
-		  //   collection.insert({name: 'taco', tasty: true}, function(err, result) {
-		  //     collection.find({name: 'taco'}).toArray(function(err, docs) {
-		  //       console.log(docs[0])
-		  //       db.close()
-		  //     })
-		  //   })
-		  // })
-		console.log(skill);
-    }
+    
 
     var currentPictureWidth;
 	var newPictureWidth;
@@ -60,7 +46,7 @@ var backColor="blue";
 			coordinates[3] = coordinates[3]*ratio;
 			list[i].setAttribute("coords",coordinates.toString());
 	    }
-	    // console.log(ratio)
+	    
     }
 
     $scope.$on('$viewContentLoaded', function(){
@@ -85,7 +71,7 @@ var backColor="blue";
 	  return function (callback, ms, uniqueId) {
 	    if (!uniqueId) {
 	      uniqueId = "Don't call this twice without a uniqueId";
-	      console.log(uniqueId);
+	     
 	    }
 	    if (timers[uniqueId]) {
 	      clearTimeout (timers[uniqueId]);
@@ -100,7 +86,7 @@ var backColor="blue";
 	      	newPictureWidth = document.getElementById("wordImage").offsetWidth;
 		    newRatio = newPictureWidth/currentPictureWidth;
 		    if(newRatio){
-		    	// console.log(newRatio+"-");
+		    	
 		    	resizeAreas(newRatio);
 		    	currentPictureWidth = newPictureWidth;
 		    }
@@ -124,7 +110,7 @@ var backColor="blue";
 		// coordinates[2] = coordinates[2]-110;
 		// coordinates[3] = coordinates[3]-55;
 		list[i].setAttribute("coords",coordinates.toString());
-		// console.log(coordinates)
+		
 
     }
     $scope.gotoAnchor = function(x) {
@@ -162,8 +148,7 @@ var backColor="blue";
     	
     	var someElement = angular.element(document.getElementById(destination));
     	
-    	profile
-    	console.log(someElement)
+    	
     	var top = someElement.prop('offsetTop');
     	if(destination==="profile"){top = 0;}
     	$document.scrollTo(someElement.prop('offsetLeft'), top, 500); 	 

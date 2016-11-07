@@ -7,7 +7,7 @@
 	<div id="projects" class="flex-item">
 		<div class="row">
 		
-		<span ng-click="moveTo('profile')" style="float:left;font-size: 2em"><span class="glyphicon glyphicon-chevron-left"></span>Profile</span>
+		<span ng-click="moveTo('profile')" style="float:left;font-size: 2em;cursor: pointer;"><span class="glyphicon glyphicon-chevron-left"></span>Profile</span>
 		<span style="font-weight:100;font-size: 3em;float:right;">Projects</span>
 		</div>
 		<div class="row workItem">
@@ -57,7 +57,12 @@
 				<img style="width:100%; margin-top:3vh" src="../images/profile2.png" />
 			</div>	
 			<div class="col-sm-9" id="profileDecription" >
-				<p>I am currently a fourth year Software Engineering student expecting to graduate in December 2016. I am a passionate programmer. I've worked and developped software at large and small organizations. From having to store 80 million gene matches to programming websites. To learn more about me, you can visit the <a class="arrow" href="#bottomSection" ng-click="moveTo('bottomSection')">skills section bellow</a>, the <a class="arrow" href="#projects" ng-click="moveTo('projects')">project section on the right</a> of the <a class="arrow" href="#workExperience" ng-click="moveTo('workExperience')">work experience section on the left</a>. Look around!</p>
+				<p>Hey there! Welcome to my webpage. I am currently a fourth year Software Engineering student expecting to graduate in December 2016. I am a passionate programmer. I've worked and developped software at large and small organizations. From having to store 80 million gene matches to programming websites. To learn more about me, you can visit the <a class="arrow" ng-click="moveTo('bottomSection')">skills section bellow</a>, the <a class="arrow"  ng-click="moveTo('projects')">project section on the right</a> of the <a class="arrow"  ng-click="moveTo('workExperience')">work experience section on the left</a>. Look around!</p>
+				<span style="float:right;"><a href="https://github.com/NsTremblay" target="_blank">Github: NsTremblay</a></span><br>
+				<span style="float:right;"><a href="images/NicolasTremblayResume.pdf" download>My resume</a></span><br>
+				<span style="float:right;"><a href="https://ca.linkedin.com/in/tremblaynicolas" target="_blank">My LinkedIn</a></span>
+
+
 			</div>
 			
 
@@ -67,7 +72,7 @@
 	<div id="workExperience" class="flex-item">
 		<div class="row">
 		<span style="font-weight:100;font-size: 3em;">Work Experience</span>
-		<span ng-click="moveTo('profile')" style="float:right;font-size: 2em">Profile<span  class="glyphicon glyphicon-chevron-right"></span></span>
+		<span ng-click="moveTo('profile')" style="float:right;font-size: 2em;cursor: pointer;">Profile<span  class="glyphicon glyphicon-chevron-right"></span></span>
 		</div>
 		<br>
 		<div class="row workItem">
@@ -167,7 +172,7 @@ Nicolas Tremblay, Patrick B. Hill, Kyle R. Conway, Christopher N. Boddy, The use
 
 <div class="bottomSec" id="bottomSection">
 
-<span ng-click="moveTo('workExperience')" style="float:left;font-size: 2em; font-weight:100;"><span class="glyphicon glyphicon-chevron-left"></span>Work Experience</span>
+<span ng-click="moveTo('workExperience')" style="float:left;font-size: 2em; font-weight:100; cursor: pointer;"><span class="glyphicon glyphicon-chevron-left"></span>Work Experience</span>
 
 
 	<a class="arrow arrowSkills"   ng-click="moveTo('bottomSection')">
@@ -181,7 +186,7 @@ Nicolas Tremblay, Patrick B. Hill, Kyle R. Conway, Christopher N. Boddy, The use
 		<h3 class="guideHeader">Profile</h3>
 	</a>
 
-<span ng-click="moveTo('projects')" style="float:right;font-size: 2em; font-weight:100;">Projects<span  class="glyphicon glyphicon-chevron-right"></span></span>
+<span ng-click="moveTo('projects')" style="float:right;font-size: 2em; font-weight:100; cursor: pointer;">Projects<span  class="glyphicon glyphicon-chevron-right"></span></span>
 
 
 </div>
