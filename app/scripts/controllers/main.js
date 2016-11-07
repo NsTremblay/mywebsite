@@ -9,6 +9,9 @@
  */
 myApp.controller('MainCtrl',['$scope','SkillService', '$location','$anchorScroll','$document', '$window', function ($scope, SkillsService, $location, $anchorScroll, $document, $window) {
 
+		var someElement = angular.element(document.getElementById("profile"));
+    	$document.scrollTo(someElement.prop('offsetLeft'), someElement.prop('offsetTop'), 0); 
+
 var backColor="blue";	
 	angular.element($window).bind("scroll", function() {
              if($window.innerHeight*0.45<$window.scrollY){

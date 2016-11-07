@@ -26,8 +26,6 @@ app.use(function (req, res, next) {
 });
 
 
-app.use('/bower_components',  express.static('./bower_components'));
-app.use(express.static(__dirname + '../public'));
 
 var express = require('express'), app = express()
 
@@ -43,7 +41,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 // Lets you use http verbs put or delete
 app.use(methodOverride());
-
+app.use('/bower_components', express.static('./bower_components'));
 
 // Load the routes
 // require('./routes/patientRoutes')(app, isLoggedIn);
