@@ -39,7 +39,7 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
-    "postinstall": "npm install bower && bower install",
+    "postinstall": "bower install",
     "start": "node server.js"
   },
   "dependencies": {
