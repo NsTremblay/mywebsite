@@ -2,8 +2,6 @@
 var express = require('express');
 var app = express();
 
-// Setup database
-var mongoose = require('mongoose');
 
 // Setup port
 var port = process.env.PORT || 8080;
@@ -30,25 +28,6 @@ app.use(function (req, res, next) {
 
 var express = require('express'), app = express()
 
-  var db = require('./db')
-
-  // Connect to Mongo on start
-  db.connect('mongodb://localhost:27017/mydatabase', function(err) {
-    if (err) {
-      console.log('Unable to connect to Mongo.')
-      process.exit(1)
-    } else {
-      app.listen(9000, function() {
-        console.log('Listening on port 3000...')
-      })
-    }
-  })
-
-  // Load the routes
-  require('./routes/skill')(app);
-
-// Connect database
-mongoose.connect(process.env.MONGOLAB_URI);
 // Set static file location
 app.use(express.static('./app'));
 // Log every request to console
