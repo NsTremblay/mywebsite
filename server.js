@@ -26,6 +26,9 @@ app.use(function (req, res, next) {
 });
 
 
+app.use('/bower_components',  express.static('./bower_components'));
+app.use(express.static(__dirname + '../public'));
+
 var express = require('express'), app = express()
 
 // Set static file location
