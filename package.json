@@ -39,7 +39,7 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
-    "start": "grunt serve"
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
