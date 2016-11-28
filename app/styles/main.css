@@ -181,7 +181,8 @@ body.orange { transition:0.5s linear all; background:#FF5722; color:white; }
 }
 
 #profile{
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y:scroll;
 
 }
 #profile::-webkit-scrollbar { 
@@ -199,7 +200,8 @@ body.orange { transition:0.5s linear all; background:#FF5722; color:white; }
 }
 
 #workExperience{
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
   height:100vh;
   font-weight:200; font-family: 'Roboto', sans-serif; font-size:1.3em;padding: 2em;
 
@@ -222,7 +224,8 @@ body.orange { transition:0.5s linear all; background:#FF5722; color:white; }
 
 }
 #projects{
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
   height:100vh;
   font-weight:200; font-family: 'Roboto', sans-serif; font-size:1.3em;padding: 2em;
 }

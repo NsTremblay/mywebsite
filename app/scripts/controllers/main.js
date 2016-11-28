@@ -127,7 +127,7 @@ var backColor="blue";
     };
 
     $scope.moveTo = function (destination){
-    	console.log("Go to "+destination);
+    	("Go to "+destination);
     	$(".body").css("background-color", "yellow");
     	var choice = Math.floor(Math.random()*4);
 

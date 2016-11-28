@@ -202,8 +202,9 @@ Nicolas Tremblay, Patrick B. Hill, Kyle R. Conway, Christopher N. Boddy, The use
 			<h1 style="font-size:5em" class="yearSkills">{{skill}}</h1>
 			<div class="row" style="margin-bottom: 15px;">
 				<div class="col-md-3 yearSkills">{{skills[skill].time}}<span style="font-size: 25px;" ng-if="skills[skill].time">year<span style="font-size: 25px;" ng-if="skills[skill].time>1">s</span></span></div>
-				<div class="col-md-9" ng-bind-html="skills[skill].description"></div>
+				<div class="col-md-9" style="font-size: 1.3em;" ng-bind-html="skills[skill].description"></div>
 			</div>
+			<p style="font-size: 0.7em;">Click on a skill to learn more</p>
 
 		</div>
 
